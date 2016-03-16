@@ -6,6 +6,8 @@ module:
   breakpoint: 0
   color: 0
   config: 0
+  config_readonly: 0
+  config_update: 0
   content_entity_base: 0
   contextual: 0
   datetime: 0
@@ -13,6 +15,8 @@ module:
   dynamic_page_cache: 0
   entity: 0
   entity_reference_revisions: 0
+  features: 0
+  features_ui: 0
   field: 0
   field_ui: 0
   file: 0
@@ -26,7 +30,12 @@ module:
   media_entity: 0
   media_entity_image: 0
   menu_ui: 0
+  migrate: 0
+  migrate_plus: 0
+  migrate_source_csv: 0
+  migrate_tools: 0
   nica_entity: 0
+  nica_migrate: 0
   node: 0
   options: 0
   page_cache: 0
