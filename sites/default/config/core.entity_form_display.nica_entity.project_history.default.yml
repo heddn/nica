@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.nica_entity.project_history.field_benefit_earned
     - field.field.nica_entity.project_history.field_city
     - field.field.nica_entity.project_history.field_comments_on_result
     - field.field.nica_entity.project_history.field_materials
@@ -23,13 +22,6 @@ targetEntityType: nica_entity
 bundle: project_history
 mode: default
 content:
-  field_benefit_earned:
-    weight: 7
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
   field_city:
     weight: 4
     settings:

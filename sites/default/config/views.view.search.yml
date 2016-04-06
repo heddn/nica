@@ -1066,11 +1066,6 @@ display:
           entity_type: nica_entity
           entity_field: uid
           plugin_id: field
-        field_benefit_earned:
-          id: field_benefit_earned
-          table: nica_entity__field_benefit_earned
-          field: field_benefit_earned
-          plugin_id: field
         changed:
           id: changed
           table: nica_entity_field_data
@@ -1293,7 +1288,6 @@ display:
         - user.roles
       tags:
         - 'config:field.storage.nica_entity.field_address'
-        - 'config:field.storage.nica_entity.field_benefit_earned'
         - 'config:field.storage.nica_entity.field_birthday'
         - 'config:field.storage.nica_entity.field_children'
         - 'config:field.storage.nica_entity.field_city'
